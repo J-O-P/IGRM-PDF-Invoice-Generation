@@ -1,0 +1,7 @@
+name: IGRM-PDF-Invoice-Generation
+dependencies:
+  - python=3.9
+  - reportlab=3.5.*
+  - qrbill=0.6.*
+  - svglib=1.1.*
+  - pandas=1.3.*
