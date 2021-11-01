@@ -8,5 +8,5 @@ dependencies:
   - wand=0.6.*
   - notebook
   - jupyterthemes
-  
+  - python-dotenv
   
