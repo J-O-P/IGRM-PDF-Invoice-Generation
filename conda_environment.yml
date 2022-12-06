@@ -10,4 +10,4 @@ dependencies:
   - jupyterthemes
   - python-dotenv
   - openpyxl
-  
+  - msal
