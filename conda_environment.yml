@@ -1,11 +1,12 @@
-name: IGRM-PDF-Invoice-Generation
-dependencies:
-  - python=3.9
-  - reportlab=3.5.*
-  - qrbill=0.6.*
-  - svglib=1.1.*
-  - pandas=1.3.*
-  - wand=0.6.*
+name: IGRM_Env_py310
+channels:
+  - conda-forge
+  - defaultsdependencies:
+  - python=3.10
+  - reportlab
+  - qrbill
+  - svglib
+  - pandas
   - notebook
   - jupyterthemes
   - python-dotenv
