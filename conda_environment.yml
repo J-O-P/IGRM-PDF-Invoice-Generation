@@ -1,10 +1,10 @@
 name: IGRM_Env_py310
 channels:
+  - defaults
   - conda-forge
-  - defaultsdependencies:
+dependencies:
   - python=3.10
   - reportlab
-  - qrbill
   - svglib
   - pandas
   - notebook
@@ -12,3 +12,4 @@ channels:
   - python-dotenv
   - openpyxl
   - msal
+  - pip
